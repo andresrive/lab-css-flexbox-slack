@@ -1,0 +1,266 @@
+/* 
+background purple: #540B51
+background ivory: #F3EAE2
+button blue: #4285F4
+titles black: #191817
+paragraph black: #000000
+paragraph yellow: #ECB12F
+links blue: #2E71A6
+footer links grey: #454245 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #540B51;
+}
+
+nav img {
+    width: 25%;
+}
+
+header {
+    background-color:#540B51;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.invisible {
+    display: none;
+}
+
+.logo-slack {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+
+.firstImgDownsize {
+    width: 100%;
+}
+
+.imgDownsize {
+    width: 100%;
+}
+
+#title {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#title h1 {
+    color: #F3EAE2;
+}
+
+#slackFree {
+    color: #ECB12F;
+}
+
+#title p {
+    color: #F3EAE2;
+}
+
+.registrationBtn {
+    width:80%;
+    padding: 10px 0;
+    color: #540B51;
+}
+
+.registrationBtn img {
+    width: 10%;
+    padding: 5%;
+    background-color: #F3EAE2;
+}
+
+#googleBtn {
+    background-color: #4285F4;
+    color: #F3EAE2;
+} 
+
+main > section > p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 800;
+}
+
+.backgroundColor {
+    background-color:#F3EAE2;
+}
+
+#logos {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#logos img {
+    width: 12rem;
+}
+
+.flexibility  {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.relyOnSlack {
+    text-align: center;
+}
+
+.relyOnSlack h3 {
+    font-size: xx-large;
+}
+
+.relyOnSlack > p {
+    text-transform: capitalize;
+}
+
+.slackEnterprise {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.slackEnterprise button {
+    padding: 10px 0;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.percentage {
+    color:#540B51;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.bold {
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+#tryForFree {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #540B51;
+}
+
+#tryForFree h3 {
+    color:white;
+    text-align: center;
+
+}
+
+#tryForFree button {
+    padding: 10px 0;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+footer img {
+    width: 15%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lista ul {
+    list-style-type: none;
+}
+
+.subtitulo {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+.links {
+    font-weight: bold;
+}
+
+.links li {
+    margin: 10px;
+}
+
+.links li img {
+    width: 2%;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+@media (min-width:768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+    #logos {
+        flex-wrap: nowrap;
+        justify-content: center;
+        /* CAMBIAR TAMAÑO DE LOGOS INDIVIDUALMENTE */
+    }
+    main section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .slackEnterprise {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .relyOnSlack ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1440px) {
+#navbar div {
+    display: flex;
+    justify-content: space-between;
+}
+    .invisible {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.invisible a {
+    color: white;
+}
+#tryForFree {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+

@@ -1,4 +1,4 @@
-/*
+/* 
 background purple: #540B51
 background ivory: #F3EAE2
 button blue: #4285F4
@@ -6,5 +6,411 @@ titles black: #191817
 paragraph black: #000000
 paragraph yellow: #ECB12F
 links blue: #2E71A6
-footer links grey: #454245
-*/
+footer links grey: #454245 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+nav {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+nav img {
+    width: 25%;
+}
+
+
+nav > div + div > button {
+    background-color: #540B51;
+    border: none;
+    width: 4rem;
+}
+
+header {
+    background-color:#540B51;
+}
+
+
+nav > div > img + ul {
+    display: none;
+}
+
+nav > div > img {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+
+header > div > img {
+    width: 100vw;
+}
+
+
+header > div {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+header > div h1 {
+    color: #F3EAE2;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+strong {
+    color: #ECB12F;
+}
+
+header > div p {
+    color: #F3EAE2;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+header > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > div > div > button { 
+    width:90vw;
+    padding: 1rem 0;
+    color: #540B51;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+}
+
+header > div > div > button + button {
+    background-color: #4285F4;
+    color: white;
+    padding: 0.3rem 0;
+}
+
+header > div > div > button + button > img {
+    position: relative;
+    right: 8.5rem;
+    width: 1.5rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0;
+}
+
+header > div > div > button + button > span {
+    position: relative;
+    bottom: 1rem;
+    right: 1rem;
+
+}
+
+
+
+main > section > p {
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    background-color:#F3EAE2;
+}
+
+
+
+
+main > section > div {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #F3EAE2;
+}
+
+main > section > div > img {
+    width: 25%;
+}
+
+main > section + section {
+    background-color: #F3EAE2;
+}
+
+main > section + section > div > img {
+    width: 100vw;
+}
+
+main > section > div + div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main > section > div + div > h2  {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+main > section > div + div > p {
+    font-size: 1.5rem;
+    padding: 0 2rem 1rem 1rem;   
+}
+
+main > section > div > a {
+    padding-left: 1rem;
+    color:#4285F4;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 3rem;
+}
+
+main > section + section + section {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+main > section + section + section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main > section + section + section > div > h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+main > section + section + section > div > p {
+    font-size: 1.5rem;
+    padding: 0 2rem 1rem 1rem;  
+}
+
+main > section + section + section > div > a {
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    color:#4285F4;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main > section + section + section > div > img {
+    width: 100vw;
+}
+
+main > section + section + section+ section {
+    display: flex;
+    flex-direction: column;
+}
+
+main > section + section + section + section > div > img {
+    width: 100vw;
+}
+
+main > section + section + section + section + section {
+    text-align: center;
+    background-color: white;
+    padding-top: 4rem;
+}
+
+main > section + section + section + section + section h3 {
+    font-size: 2.5rem;
+}
+
+main > section + section + section + section + section div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+main > section + section + section + section + section > p {
+    background-color: white;
+    text-transform: none;
+    font-size: 1.3rem;
+    
+}
+
+main > section + section + section + section + section > div button {
+    width:90vw;
+    padding: 1rem 0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    border: none;
+    background-color: #540B51;
+}
+main > section + section + section + section + section > div button + button {
+    width:90vw;
+    padding: 1rem 0;
+    color: #540B51;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 2px solid #540B51;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    background-color: white;
+    margin-bottom: 5rem;
+    
+}
+
+main > section + section + section + section + section ul li p span {
+    color:#540B51;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+main > section + section + section + section + section ul li p + p {
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-transform: lowercase;
+    padding: 0 2rem 2rem 2rem;
+}
+
+main > section + section + section + section + section + section {
+    text-align: center;
+    background-color:#540B51;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+main > section + section + section + section + section + section > h3 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+main > section + section + section + section + section + section > button {
+    width:90vw;
+    padding: 1rem 0;
+    color: #540B51;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+}
+main > section + section + section + section + section + section > button + button {
+    width:90vw;
+    padding: 1rem 0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 2px solid white;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    background-color:#540B51;
+    margin-bottom: 5rem;
+}
+
+
+
+footer img {
+    padding: 2rem;
+    width: 15%;
+}
+
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+footer > div > ul {
+    list-style-type: none;
+}
+
+footer > div > ul > li  {
+    padding: 0.8rem 0;
+}
+
+footer > div > ul > li:first-child {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+footer > hr + ul {
+    font-weight: bold;
+}
+
+footer > hr + ul > li {
+    margin: 10px;
+    padding: 0.8rem;
+}
+
+footer > hr + ul > li > img {
+    width: 2%;
+    padding: 0.1rem;
+}
+
+footer > hr + ul > li:last-child {
+    color:#4285F4;
+}
+
+footer > ul:last-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 2rem;
+}
+
+footer > div:last-of-type {
+    text-align:justify;
+    color: #454245;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+
+/* @media (min-width:768px) */
+/* EN LA CARPETA MAS EXTERNA HAY UN HTML Y UN CSS CON CLASES QUE ES EL PRIMERO QUE HICIMOS
+ESE TIENE LAS MEDIA QUERIES HECHAS. NO NOS DIO TIEMPO DE HACER ESTAS EN ESTE, TAMBIEN PORQUE NO FUNCIONABA,
+CREEMOS QUE POR UN TEMA DE ESPECIFICIDAD, QUE NO PASABA CUANDO USABAMOS CLASES */
+
+/* @media (min-width:1025px) and (max-width:1440px)  */
+
+
